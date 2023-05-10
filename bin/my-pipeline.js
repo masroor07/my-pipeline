@@ -6,8 +6,8 @@ const { MyPipelineStack } = require('../lib/my-pipeline-stack');
 const app = new cdk.App();
 new MyPipelineStack(app, 'MyPipelineStack', {
   env: {
-    account: '111111111111',
-    region: 'eu-west-1',
+    account: '768392373232',
+    region: 'us-east-1',
   }
 });
 
